@@ -1,0 +1,72 @@
+@import "useful-classes"
+
+#portfolio
+  background: #E6E6E6
+  color: #2A2A2A
+  margin: 0
+  padding: 150px 0
+  box-sizing: border-box
+  #portfolio-header
+    background: $primary-color
+    margin-left: 40%
+    margin-bottom: 100px
+    h1
+      font-size: 48pt
+      font-weight: 300
+      margin: 0
+      position: relative
+      left: -123px
+      @media screen and (max-width: $tablet-breakpoint)
+        font-size: 36pt
+      @media screen and (max-width: $phone-breakpoint)
+        font-size: 30pt
+        left: -80px
+  #projects
+    width: 95%
+    padding: 10px
+    margin: auto
+    flex-wrap: wrap
+    .project-tile
+      width: 95%
+      box-sizing: border-box
+      margin: 10px
+      align-items: flex-start
+      flex-wrap: wrap
+      img
+        width: 55%
+        margin: auto
+        @media screen and (max-width: $tablet-breakpoint)
+          width: 100%
+      .tile-content
+        margin: auto
+        width: 39%
+        height: 100%
+        padding: 10px
+        box-sizing: border-box
+        align-items: flex-start
+        @media screen and (max-width: $tablet-breakpoint)
+          width: 100%
+        h1
+          font-size: 26pt
+          font-weight: 300
+          @media screen and (max-width: $tablet-breakpoint)
+            font-size: 24pt
+          @media screen and (max-width: $phone-breakpoint)
+            font-size: 20pt
+        h3, a
+          font-size: 15pt
+          font-weight: 400
+          opacity: 0.6
+          @media screen and (max-width: $tablet-breakpoint)
+            font-size: 14pt
+          @media screen and (max-width: $phone-breakpoint)
+            font-size: 13pt
+        a
+          opacity: 1
+        p
+          font-size: 16pt
+          font-weight: 300
+          @media screen and (max-width: $tablet-breakpoint)
+            font-size: 15pt
+          @media screen and (max-width: $phone-breakpoint)
+            font-size: 14pt

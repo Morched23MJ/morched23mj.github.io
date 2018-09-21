@@ -1,0 +1,44 @@
+@import "useful-classes"
+
+#work
+  padding-top: 75px
+  box-sizing: border-box
+  height: 450px
+  background: #111
+  color: white
+  h1
+    margin-left: 10%
+    font-size: 48pt
+    font-weight: 200
+    @media screen and (max-width: $tablet-breakpoint)
+      font-size: 42pt
+    @media screen and (max-width: $phone-lg-breakpoint)
+      font-size: 36pt
+    @media screen and (max-width: $phone-breakpoint)
+      font-size: 32pt
+  #work-content
+    position: relative
+    width: 90%
+    margin: auto
+    p
+      font-size: 18pt
+      font-weight: 200
+      text-align: right
+      position: relative
+      @media screen and (max-width: $tablet-breakpoint)
+        font-size: 16pt
+      @media screen and (max-width: $phone-lg-breakpoint)
+        font-size: 14pt
+        padding-top: 20px
+      @media screen and (max-width: $phone-breakpoint)
+        font-size: 13pt
+    #work-hightlight
+      width: 128px
+      height: 280px
+      opacity: 0.3
+      background: $primary-color
+      position: absolute
+      top: -238px
+      right: 331px
+      @media screen and (max-width: $tablet-breakpoint)
+        height: 0

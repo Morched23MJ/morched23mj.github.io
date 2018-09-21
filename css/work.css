@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
+.fake-link {
+  text-decoration: none; }
+
+.fake-list {
+  list-style: none; }
+
+.h-flex, .v-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.v-flex {
+  flex-direction: column; }
+
+#work {
+  padding-top: 75px;
+  box-sizing: border-box;
+  height: 450px;
+  background: #111;
+  color: white; }
+  #work h1 {
+    margin-left: 10%;
+    font-size: 48pt;
+    font-weight: 200; }
+    @media screen and (max-width: 768px) {
+      #work h1 {
+        font-size: 42pt; } }
+    @media screen and (max-width: 598px) {
+      #work h1 {
+        font-size: 36pt; } }
+    @media screen and (max-width: 480px) {
+      #work h1 {
+        font-size: 32pt; } }
+  #work #work-content {
+    position: relative;
+    width: 90%;
+    margin: auto; }
+    #work #work-content p {
+      font-size: 18pt;
+      font-weight: 200;
+      text-align: right;
+      position: relative; }
+      @media screen and (max-width: 768px) {
+        #work #work-content p {
+          font-size: 16pt; } }
+      @media screen and (max-width: 598px) {
+        #work #work-content p {
+          font-size: 14pt;
+          padding-top: 20px; } }
+      @media screen and (max-width: 480px) {
+        #work #work-content p {
+          font-size: 13pt; } }
+    #work #work-content #work-hightlight {
+      width: 128px;
+      height: 280px;
+      opacity: 0.3;
+      background: #1ABC9C;
+      position: absolute;
+      top: -238px;
+      right: 331px; }
+      @media screen and (max-width: 768px) {
+        #work #work-content #work-hightlight {
+          height: 0; } }
+
+/*# sourceMappingURL=work.css.map */

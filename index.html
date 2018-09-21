@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>morched23mj — Front-End Developer</title>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Front-End Developer Portfolio">
+  <meta name="keywords" content="Front-End, Developer, Web Developer, Front-End Developer, Portfolio">
+  <meta name="author" content="Morchid Chellali">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/nav.css" rel="stylesheet" type="text/css">
+  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <link href="css/about.css" rel="stylesheet" type="text/css">
+  <link href="css/portfolio.css" rel="stylesheet" type="text/css">
+  <link href="css/work.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Signika" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <nav id="navbar" class="h-flex">
+    <div id="collapse" class="h-flex">
+      <div id="logo">
+        <a id="logo-a" href="#home" class="fake-link">chellali.</a>
+      </div>
+      <div id="menu-toggle" class="v-flex" onclick="menuToggle()">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+      </div>
+    </div>
+    <div id="nav-links" class="v-flex hide">
+      <ul id="internal" class="v-flex fake-list">
+        <li class="nav-link"><a href="#about" class="fake-link" onclick="menuToggle()">about</a></li>
+        <li class="nav-link"><a href="#portfolio" class="fake-link" onclick="menuToggle()">portfolio</a></li>
+        <li class="nav-link"><a href="#work" class="fake-link" onclick="menuToggle()">work</a></li>
+      </ul>
+      <ul id="external" class="h-flex fake-list">
+        <li class="social-media-link"><a href="https://www.linkedin.com/in/morchid-chellali-15150513b/" class="fake-link" target="_blank"><i class="fab 5x fa-linkedin"></i></a></li>
+        <li class="social-media-link"><a href="https://codepen.io/Morched23MJ/" class="fake-link" target="_blank"><i class="fab 5x fa-codepen"></i></a></li>
+        <li class="social-media-link"><a id="profile-link" href="https://github.com/Morched23MJ" class="fake-link" target="_blank"><i class="fab 5x fa-github"></i></a></li>
+        <li class="social-media-link"><a href="https://twitter.com/ChellaliMorchid" class="fake-link" target="_blank"><i class="fab 5x fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="home">
+    <div class="v-center">
+      <div id="rect"></div>
+      <h1>Front-End Developer</h1>
+      <h6>with a passion for visual design</h6>
+      <div id="sub-p">
+        <p>who spends part of his time creating cool web interfaces & experiences</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div id="intro">
+      <div id="hightlight"></div>
+      <h1>Hola! mi nombre es Morchid Chellali,</h1>
+      <p>and I am a web developer — specializing in Front-End development. I am currently pursuing my major in Computer Science, which has given me the oppurtunity to both touch on a variety of topics and technologies, and to widen my scope of expertise.</p>
+      <p>Being passionate about Visual Communication, has pushed me to combine my coding skill with my love for Graphic Design, to make beautiful, intuitive and modern User Interfaces accompanied with a smooth and easy User Experience.</p>
+      <p><br>I believe that learning as much information as possible in diverse fields as well as mastering mine, has a major contribution to my Problem Solving skill, thus you would always find me investing time in areas outside my comfort zone.</p>
+    </div>
+
+    <div id="skills">
+      <div id="header">
+        <div id="header-rect"></div>
+        <h1>Skills</h1>
+      </div>
+
+      <div id="skills-content" class="h-flex">
+        <div class="skill">
+          <h1>Branding</h1>
+          <ul class="fake-list">
+            <li>Research</li>
+            <li>Strategy</li>
+            <li>Identity</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h1>UI & UX</h1>
+          <ul class="fake-list">
+            <li>Sketching</li>
+            <li>Wireframing</li>
+            <li>Mockups</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h1>Development</h1>
+          <ul class="fake-list">
+            <li><em>HTML5, CSS3</em></li>
+            <li><em>JavaScript/jQuery</em></li>
+            <li><em>Bootstrap, Sass</em></li>
+            <li><em>React & Redux</em></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div id="portfolio-header">
+      <h1>Portfolio</h1>
+    </div>
+    <section id="projects" class="wrapper v-flex">
+      <div id="explored" class="project-tile h-flex">
+        <img src="images/EW.png" alt="">
+        <div class="tile-content v-flex">
+          <h1>Explored - A Service Landing Page</h1>
+          <a class="fake-link" href="https://codepen.io/Morched23MJ/full/YjbOgw" target="_blank">Visit Website</a>
+          <p>Explore is a travel agency that helps natural beauty seekers by insuring all aspects of their adventures, which comprehend, safety, planning, discovery, and last but not least the fun along the way.</p>
+          <h3>Branding, Identity Design<br>User Interface Design<br>HTML5, CSS3</h3>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <div id="work">
+    <h1>Work</h1>
+    <div id="work-content">
+      <div id="work-hightlight"></div>
+      <p>New experiences are always more than welcome.</p>
+      <p>Do not hesitate to send a message at: morchid23mj@gmail.com</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/script.js"></script>
+</body>

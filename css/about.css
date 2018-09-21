@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
+.fake-link {
+  text-decoration: none; }
+
+.fake-list {
+  list-style: none; }
+
+.h-flex, .v-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.v-flex {
+  flex-direction: column; }
+
+#about {
+  background: #E6E6E6;
+  color: #2A2A2A;
+  box-sizing: border-box; }
+  #about #intro {
+    width: 75%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 9%;
+    padding-top: 100px; }
+    @media screen and (max-width: 768px) {
+      #about #intro {
+        width: 80%; } }
+    @media screen and (max-width: 598px) {
+      #about #intro {
+        width: 87%;
+        padding-left: 7%; } }
+    @media screen and (max-width: 480px) {
+      #about #intro {
+        width: 95%;
+        padding-left: 4%; } }
+    #about #intro div {
+      position: relative; }
+    #about #intro h1 {
+      margin-left: 10%;
+      margin-bottom: 50px;
+      font-size: 36pt;
+      font-weight: 400;
+      position: relative; }
+      @media screen and (max-width: 768px) {
+        #about #intro h1 {
+          font-size: 32pt; } }
+      @media screen and (max-width: 598px) {
+        #about #intro h1 {
+          font-size: 28pt; } }
+      @media screen and (max-width: 480px) {
+        #about #intro h1 {
+          font-size: 24pt; } }
+    #about #intro p {
+      font-size: 18pt;
+      font-weight: 300; }
+      @media screen and (max-width: 768px) {
+        #about #intro p {
+          font-size: 16pt; } }
+      @media screen and (max-width: 598px) {
+        #about #intro p {
+          font-size: 14pt; } }
+    #about #intro #hightlight {
+      background: #1ABC9C;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      width: 450px;
+      height: 200px; }
+      @media screen and (max-width: 768px) {
+        #about #intro #hightlight {
+          height: 180px;
+          width: 350px; } }
+      @media screen and (max-width: 598px) {
+        #about #intro #hightlight {
+          height: 170px; } }
+  #about #skills {
+    margin: auto;
+    padding-top: 150px;
+    width: 90%; }
+    @media screen and (max-width: 768px) {
+      #about #skills {
+        padding-top: 80px; } }
+    #about #skills #header {
+      padding-left: 9%;
+      display: inline-block;
+      position: relative; }
+      #about #skills #header h1 {
+        font-size: 36pt;
+        font-weight: 300;
+        position: relative; }
+        @media screen and (max-width: 598px) {
+          #about #skills #header h1 {
+            font-size: 32pt; } }
+      #about #skills #header #header-rect {
+        display: inline-block;
+        position: absolute;
+        opacity: 0.8;
+        top: 25px;
+        width: 70%;
+        height: 33%;
+        background: #1ABC9C; }
+        @media screen and (max-width: 768px) {
+          #about #skills #header #header-rect {
+            width: 80%; } }
+        @media screen and (max-width: 598px) {
+          #about #skills #header #header-rect {
+            width: 93%; } }
+    #about #skills #skills-content {
+      padding-top: 30px;
+      margin: auto;
+      width: 90%;
+      flex-wrap: wrap; }
+      #about #skills #skills-content .skill {
+        align-self: flex-start;
+        margin: 25px auto;
+        padding: 10px;
+        width: 25%;
+        min-width: 300px;
+        text-align: center; }
+        #about #skills #skills-content .skill h1 {
+          font-size: 26pt;
+          font-weight: 300;
+          position: relative;
+          border-bottom: 1px solid #111;
+          padding-bottom: 20px; }
+          @media screen and (max-width: 768px) {
+            #about #skills #skills-content .skill h1 {
+              font-size: 24pt; } }
+          @media screen and (max-width: 598px) {
+            #about #skills #skills-content .skill h1 {
+              font-size: 22pt; } }
+        #about #skills #skills-content .skill h1::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 15%;
+          display: block;
+          margin: auto;
+          width: 70%;
+          height: 10px;
+          background: #1ABC9C;
+          opacity: 0.3; }
+        #about #skills #skills-content .skill ul {
+          font-size: 16pt;
+          font-weight: 300;
+          width: 100%;
+          padding: 0;
+          margin-top: 30px; }
+          #about #skills #skills-content .skill ul li {
+            margin: 7px auto; }
+            @media screen and (max-width: 768px) {
+              #about #skills #skills-content .skill ul li {
+                font-size: 15pt; } }
+            @media screen and (max-width: 598px) {
+              #about #skills #skills-content .skill ul li {
+                font-size: 14pt; } }
+
+/*# sourceMappingURL=about.css.map */

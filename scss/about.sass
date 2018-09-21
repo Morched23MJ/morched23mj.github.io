@@ -1,0 +1,131 @@
+@import "useful-classes"
+
+#about
+  background: #E6E6E6
+  color: #2A2A2A
+  box-sizing: border-box
+
+  #intro
+    width: 75%
+    position: relative
+    box-sizing: border-box
+    padding: 5px
+    padding-left: 9%
+    padding-top: 100px
+    @media screen and (max-width: $tablet-breakpoint)
+      width: 80%
+    @media screen and (max-width: $phone-lg-breakpoint)
+      width: 87%
+      padding-left: 7%
+    @media screen and (max-width: $phone-breakpoint)
+      width: 95%
+      padding-left: 4%
+    div
+      position: relative
+    h1
+      margin-left: 10%
+      margin-bottom: 50px
+      font-size: 36pt
+      font-weight: 400
+      position: relative
+      @media screen and (max-width: $tablet-breakpoint)
+        font-size: 32pt
+      @media screen and (max-width: $phone-lg-breakpoint)
+        font-size: 28pt
+      @media screen and (max-width: $phone-breakpoint)
+        font-size: 24pt
+    p
+      font-size: 18pt
+      font-weight: 300
+      @media screen and (max-width: $tablet-breakpoint)
+        font-size: 16pt
+      @media screen and (max-width: $phone-lg-breakpoint)
+        font-size: 14pt
+
+    #hightlight
+      background: $primary-color
+      opacity: 0.5
+      position: absolute
+      top: 0
+      right: 10px
+      width: 450px
+      height: 200px
+      @media screen and (max-width: $tablet-breakpoint)
+        height: 180px
+        width: 350px
+      @media screen and (max-width: $phone-lg-breakpoint)
+        height: 170px
+
+  #skills
+    margin: auto
+    padding-top: 150px
+    width: 90%
+    @media screen and (max-width: $tablet-breakpoint)
+      padding-top: 80px
+    #header
+      padding-left: 9%
+      display: inline-block
+      position: relative
+      h1
+        font-size: 36pt
+        font-weight: 300
+        position: relative
+        @media screen and (max-width: $phone-lg-breakpoint)
+          font-size: 32pt
+      #header-rect
+        display: inline-block
+        position: absolute
+        opacity: 0.8
+        top: 25px
+        width: 70%
+        height: 33%
+        background: $primary-color
+        @media screen and (max-width: $tablet-breakpoint)
+          width: 80%
+        @media screen and (max-width: $phone-lg-breakpoint)
+          width: 93%
+    #skills-content
+      padding-top: 30px
+      margin: auto
+      width: 90%
+      flex-wrap: wrap
+      .skill
+        align-self: flex-start
+        margin: 25px auto
+        padding: 10px
+        width: 25%
+        min-width: 300px
+        text-align: center
+        h1
+          font-size: 26pt
+          font-weight: 300
+          position: relative
+          border-bottom: 1px solid #111
+          padding-bottom: 20px
+          @media screen and (max-width: $tablet-breakpoint)
+            font-size: 24pt
+          @media screen and (max-width: $phone-lg-breakpoint)
+            font-size: 22pt
+        h1::after
+          content: ''
+          position: absolute
+          bottom: 0
+          left: 15%
+          display: block
+          margin: auto
+          width: 70%
+          height: 10px
+          background: $primary-color
+          opacity: 0.3
+        ul
+          font-size: 16pt
+          font-weight: 300
+          width: 100%
+          padding: 0
+          margin-top: 30px
+          li
+            margin: 7px auto
+            @media screen and (max-width: $tablet-breakpoint)
+              font-size: 15pt
+            @media screen and (max-width: $phone-lg-breakpoint)
+              font-size: 14pt
